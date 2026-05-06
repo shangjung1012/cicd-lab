@@ -86,7 +86,7 @@ git push origin feature/ci-observe
 把 `snippets/02_run-test.yaml` 複製到 `.github/workflows/` 底下
 
 ```bash
-cp snippets/snippets/02_run-test.yaml .github/workflows/
+cp snippets/02_run-test.yaml .github/workflows/
 git add .
 git commit -m "ci: add run-test.yaml"
 git push origin feature/ci-observe
